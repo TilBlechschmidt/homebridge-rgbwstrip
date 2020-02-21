@@ -33,6 +33,6 @@
   "scripts": {
     "start": "babel-watch src/index.js",
     "build": "babel src/ -d lib/",
-    "install": "babel src/ -d lib/"
+    "prepublish": "babel src/ -d lib/"
   }
 }
