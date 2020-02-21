@@ -1,0 +1,37 @@
+{
+  "name": "homebridge-rgbwstrip",
+  "version": "0.0.1",
+  "description": "Lockitron plugin for homebridge: https://github.com/nfarina/homebridge",
+  "license": "ISC",
+  "main": "lib/index.js",
+  "keywords": [
+    "homebridge-plugin"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/example/homebridge-lockitron.git"
+  },
+  "bugs": {
+    "url": "http://github.com/example/homebridge-lockitron/issues"
+  },
+  "engines": {
+    "node": ">=0.12.0",
+    "homebridge": ">=0.2.0"
+  },
+  "dependencies": {
+    "dgram": "^1.0.1",
+    "request": "^2.65.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-watch": "^2.0.7"
+  },
+  "scripts": {
+    "start": "babel-watch src/index.js",
+    "build": "babel src/ -d lib/"
+  }
+}
