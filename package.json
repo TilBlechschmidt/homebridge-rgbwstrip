@@ -32,6 +32,7 @@
   },
   "scripts": {
     "start": "babel-watch src/index.js",
-    "build": "babel src/ -d lib/"
+    "build": "babel src/ -d lib/",
+    "install": "babel src/ -d lib/"
   }
 }
